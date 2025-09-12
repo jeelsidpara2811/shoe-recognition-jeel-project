@@ -74,3 +74,15 @@ Steps:
 -   Modular software design
 
 ## Example Demo
+
+### 1.  Using streamlit run app.py you will be redirected to Stremlit UI and then **load the model on left side** 
+![Streamlit UI](assests/1.png)
+
+### 2.  If you are updating gallery folder by adding more shoe images then click on **Build/Refresh gallery index on left side** then upload your shoe image via **Broswe File**
+![Add your Image for Recognition](assests/2.png)
+### 3.  Output shows **Predicted Attributes** , **Dominant Color**, **look-like search** and you can also download **JSON File** for your search
+![Output1](assests/3.png)
+![Output2](assests/4.png)
+
+
+
