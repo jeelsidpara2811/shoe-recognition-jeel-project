@@ -1,13 +1,13 @@
 # src/models/clip_loader.py
 import os, torch, open_clip
 
-CACHE_DIR = r"C:\hf-cache-openclip"   # keep on C: (faster & fewer issues)
+CACHE_DIR = r"C:\hf-cache-openclip"  
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 CANDIDATES = [
-    ("RN50", "laion400m_e32"),           # ~100–150 MB  ✅ light
-    ("RN50", "yfcc15m"),                 # small        ✅ light
-    ("ViT-B-32", "laion2b_s34b_b79k"),   # ~600 MB      ✅ fallback
+    ("RN50", "laion400m_e32"),          
+    ("RN50", "yfcc15m"),                 
+    ("ViT-B-32", "laion2b_s34b_b79k"),   
 ]
 
 def load_clip():

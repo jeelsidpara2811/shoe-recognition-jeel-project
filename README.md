@@ -38,7 +38,7 @@ It demonstrates **image embeddings, similarity search, and zero-shot learning** 
 
 1. Clone the repository:
 ```
-git clone https://github.com/username/shoe-recognition.git
+git clone https://github.com/jeelsidpara2811/shoe-recognition-jeel-project.git
 cd shoe-recognition
 ```
 2. Create a virtual environment:

@@ -11,7 +11,7 @@ from src.infer.zero_shot import top1
 from src.index.gallery_index import build_gallery_index
 from src.vision.color import dominant_color_swatch, rgb2hex
 
-st.set_page_config(page_title="ShoeSnap-4h", page_icon="👟", layout="wide")
+st.set_page_config(page_title="Shoe-Recognition", page_icon="|", layout="wide")
 st.title("Shoe Recognition & Similarity")
 
 # keep state
@@ -42,7 +42,7 @@ with st.sidebar:
     st.caption("Tip: put ~40 JPG/PNG shoes in ./gallery before indexing.")
 
 # ---- Labels ----
-CATEGORIES = ["sneaker","boot","sandal","loafer","pump"]
+CATEGORIES = ["sneaker","boot","sandal","loafer","heel"]
 CLOSURE   = ["lace-up","slip-on","zip","buckle","velcro"]
 TOE       = ["round toe","pointed toe","square toe","open toe"]
 MATERIAL  = ["leather","suede","textile","mesh","synthetic"]
